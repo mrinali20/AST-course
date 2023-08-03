@@ -1,0 +1,24 @@
+div h2:hover{
+    background-color: blue;
+    font-size: 30px;
+}
+ a:active{
+    color: red;
+    font-size: 30px;
+
+}
+
+
+/* pseudo element selector */
+
+ p::first-letter{
+    color:red;
+    font-size: 40px;
+}
+ p::first-line{
+    color:orange
+ }
+
+ h4::selection{
+    background-color: greenyellow;
+ }

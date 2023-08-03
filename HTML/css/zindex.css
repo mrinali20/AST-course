@@ -1,0 +1,27 @@
+.first{
+    color: azure;
+    background-color: blue;
+    position: relative;
+    border: 2px solid;
+    border-color: black;
+    height: 100px;
+    width: 100px
+}
+
+.second{
+    color: antiquewhite;
+    background-color: blueviolet;
+    border: 1px solid;
+    border-color: black;
+    position: absolute;
+    height: 69px;
+    width: 70px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+/* +1 to take element in fornt -1 behind
+left right bottom float */
+.img-container{
+    float: right;
+}

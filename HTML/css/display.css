@@ -1,0 +1,37 @@
+.disp{
+    display:inline;
+    background-color: brown;
+
+}
+/* .ex1{
+    position: absolute;
+    font-size: 50px;
+
+} */
+
+
+.disp1{
+    display:none;
+    
+}
+.disp2{
+    display:block;
+    border:2px dotted blueviolet;
+    height:auto;
+    width: auto;
+}
+.disp3{
+    display: inline-block;
+    border:2px dotted blueviolet;
+    height:auto;
+    width: auto;
+    background-color: aqua;
+
+}
+
+.newspaper{
+    column-count: 3;
+    /* column-width: 50px; */
+    column-gap: 40px;
+    column-rule: 4px double yellowgreen;
+}

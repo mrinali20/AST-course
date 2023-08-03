@@ -1,0 +1,24 @@
+.navbar-container{
+    color: blue;
+    background-color: aquamarine;
+    font-size: 20px;
+    
+
+}
+div.navbar-container a{
+    text-decoration: none;
+
+}
+
+div.main div{
+    color: rgb(68, 0, 255);
+}
+.name{
+    color: green;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    cursor: help;
+}
+/* or
+ */

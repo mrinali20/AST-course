@@ -1,0 +1,51 @@
+#div1{
+    color: aqua;
+    font-size: 50px;
+}
+#div2{
+    color: brown;
+    font-size: 150px;
+}
+#div3{
+    color: yellowgreen;
+    font-size: 100px;
+}
+#div4{
+    color: green;
+    font-size: 250px;
+}
+
+/* # opertor use in id
+. opertor use in class */
+/* desecedent selector */
+div p{
+    background-color: blue;
+}
+
+/* child selector */
+span > h1{
+    background-color: blueviolet;
+}
+
+/* adjacent sibling selector */
+
+h4 + h2{
+    background-color: brown;
+}
+
+/* general sibling selector */
+p ~ h3{
+    background-color: aqua;
+}
+
+/* universal selector */
+
+/* * {
+    background-color: aqua;
+} */
+
+/* pseudo selector */
+
+div h2:hover{
+    background-color: green;
+}

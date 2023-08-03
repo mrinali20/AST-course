@@ -1,0 +1,73 @@
+.text-prop{
+border:1px solid black;
+width: 200px;
+text-align: center;
+margin-left: 120px;
+color: blue;
+background-color: gold;
+position: relative;
+right: 0px;
+margin-right: 200px;
+
+
+}
+
+.text-prop1{
+    border:1px solid black;
+width: 200px;
+text-align: center;
+margin: auto;
+color: blue;
+background-color: gold;
+position: relative;
+right: 0px;
+
+
+}
+.text-shadow{
+    text-shadow: 2px 2px 6px pink;
+    /* horizental,ver,blur,color */
+    font-size: 40px;
+}
+
+.box-shadow{
+    box-shadow: 6px 4px 5px;
+    color: aqua;
+    background-color: blue;
+    height:100px;
+    width: 200px;
+
+}
+
+.text-transform{
+    text-transform: uppercase;
+    /* uppercase, lower case, capiltized */
+}
+.text-overflow{
+    width: 50px;
+    border: 2px solid black;
+    overflow: overlay;
+    text-overflow: ellipsis;
+    height: 50px;
+    /* text-overflow property elipsis,clip */
+}.overflow{
+    width:100px;
+    border: 2px solid black;
+    height:200px;
+    
+    overflow-x: none;
+    overflow-y: scroll;
+    /* overflow property hidden,clip,overflow-x,overflow-y, scroll,auto,visible */
+}
+.word-wrap{
+    width:90px;
+    border: 2px solid black;
+    word-wrap: break-word;
+
+}
+.break-word{
+    word-break: keep-all;
+    /* keep all, break all, break-word property */
+    width:90px;
+    border: 2px solid black; 
+}

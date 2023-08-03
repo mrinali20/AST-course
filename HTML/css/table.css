@@ -1,0 +1,15 @@
+.table-main{
+    border:1px dotted blue;
+    border-collapse: separate;
+    padding: 5px 5px;
+
+}
+/* element selector it is in grouping */
+table,tr,th,td{
+    border:1px solid blue;
+    border-collapse: collapse;
+    padding: 5px 5px;
+    background-color:yellowgreen;
+
+
+}

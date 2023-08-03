@@ -1,0 +1,92 @@
+
+.pos{
+    border: 2px solid; 
+    color: blue;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+
+}
+
+.pos1{
+    color: aqua;
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-color: black;
+    background-color: rgb(43, 255, 0);
+}
+.abs{
+    color: aqua;
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-color: black;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+    top:10px;
+    left: 100px;
+
+}
+
+.rel{
+    color: brown;
+    height: 50px;
+    width: 50px;
+    position: static;
+    border: 2px solid;
+    border-color: black;
+    position: relative;
+    background-color: aqua;
+    top: auto;
+    left: 50px;
+}
+.stick{
+    position:sticky;
+    height: 30px;
+
+    width: 1500px;
+    border: 2px solid;
+    color: black;
+    top: 0px;
+    z-index: 1;
+    /* z=position element will come in fornt */
+    background-color: rgb(255, 127, 197);
+
+    
+}
+.footer{
+    width: 1400;
+    height: auto;
+    border: 2px solid;
+    color: black;
+    position:fixed;
+    bottom: 0px;
+    background-color: rgb(127, 187, 255);
+
+
+}
+.sidebar{
+    color: brown;
+    height: 1550px;
+    width: 50px;
+    left: auto;
+    
+    border: 2px solid;
+    border-color: black;
+    
+    background-color: aqua;
+
+    
+}
+.container{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    padding: 5px;
+    background-color: azure;
+}
+
+
+

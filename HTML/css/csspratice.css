@@ -1,0 +1,27 @@
+
+h1{
+    color: red;
+    font-size : 50px;
+    background-color: blanchedalmond;
+
+}
+
+
+p {
+    color: #4CAF50;
+    font-style: italic;
+    height: 50px;
+    border: 40px;
+    background-color: #FFEB3B;
+    font-size: 40px;
+}
+span.approach{
+    color: blueviolet;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: inherit;
+    background: brown;
+    border-radius: 10px;
+    border-block-color: initial;
+}
